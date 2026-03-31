@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VA Note | 製作者情報</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --sub: #6b7280;
+      --line: #dbe3ee;
+      --accent: #1d4ed8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    }
+    h1, h2 { margin-top: 0; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { font-size: 1.2rem; margin-bottom: 12px; }
+    p, li { font-size: 1rem; }
+    .sub { color: var(--sub); margin-top: 0; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover { text-decoration: underline; }
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    .footer {
+      color: var(--sub);
+      font-size: 0.92rem;
+      text-align: center;
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>VA Note</h1>
+      <p class="sub">製作者情報 / アプリ案内</p>
+      <p>
+        VA Note は、バスキュラーアクセス管理のための記録アプリです。患者ごとのVA基本情報、シャントエコーレポート、VAIVT履歴、関連画像などの整理を目的としています。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>製作者</h2>
+      <p>nanashinoCE</p>
+    </section>
+
+    <section class="card">
+      <h2>お問い合わせ</h2>
+      <p>
+        お問い合わせは以下のフォームをご利用ください。<br>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK-ASZDN32Ryd7DOtpYbUPvWYXWcq7Z39MqnnZ5CWCZz0kIw/viewform" target="_blank" rel="noopener noreferrer">
+          お問い合わせフォーム
+        </a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>関連ページ</h2>
+      <ul>
+        <li><a href="./privacy.html">プライバシーポリシー</a></li>
+      </ul>
+    </section>
+
+    <p class="footer">© VA Note / nanashinoCE</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VA Note | プライバシーポリシー</title>
+  <style>
+    :root {
+      --bg: #f7f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --sub: #6b7280;
+      --line: #dbe3ee;
+      --accent: #1d4ed8;
+      --warn: #b91c1c;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+    }
+    .wrap {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    }
+    h1, h2 { margin-top: 0; }
+    h1 { font-size: 2rem; margin-bottom: 8px; }
+    h2 { font-size: 1.15rem; margin-bottom: 10px; }
+    p, li { font-size: 1rem; }
+    ul { margin: 0; padding-left: 1.2rem; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover { text-decoration: underline; }
+    .sub { color: var(--sub); margin-top: 0; }
+    .warn {
+      color: var(--warn);
+      font-weight: 700;
+    }
+    .footer {
+      color: var(--sub);
+      font-size: 0.92rem;
+      text-align: center;
+      margin-top: 28px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>プライバシーポリシー</h1>
+      <p class="sub">VA Note</p>
+      <p>
+        本プライバシーポリシーは、VA Note（以下「本アプリ」）における利用者情報の取り扱いおよび利用上の注意事項を定めるものです。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. 取得・保存する情報について</h2>
+      <p>
+        本アプリでは、利用者が入力した患者情報、画像、検査記録、治療記録、設定情報等を端末内または利用者が選択したバックアップ先に保存する場合があります。
+      </p>
+      <p>
+        これらの情報は、利用者自身の管理のもとで取り扱われるものであり、入力内容や運用方法によっては機微な医療関連情報を含む場合があります。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. 情報の外部送信について</h2>
+      <p>
+        本アプリは、開発者が利用者情報を恒常的に収集・管理することを目的としていません。ただし、利用者がバックアップ、共有、PDF出力その他の機能を使用した場合、利用者自身の操作により外部サービスや外部保存先へ情報が保存・送信されることがあります。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>3. 利用者の責任による管理</h2>
+      <p>
+        本アプリで取り扱う情報の管理は、利用者自身の責任において行ってください。端末の管理、認証設定、バックアップ先の管理、情報共有時の取り扱い等には十分注意してください。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>4. 医療情報の取り扱いに関する注意</h2>
+      <ul>
+        <li>本アプリは診断、治療、処方その他の医療行為そのものを目的とするものではありません。</li>
+        <li>本アプリに入力・表示される情報は、必ず医師または所属施設の管理者等の指示・方針のもとで取り扱ってください。</li>
+        <li>医療情報の記録、確認、共有、出力等を行う場合は、関連法令、所属施設の規程、運用ルールに従ってください。</li>
+        <li>本アプリの内容のみを根拠として医療上の判断を行わないでください。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. 免責事項</h2>
+      <p class="warn">
+        本アプリの利用または利用不能により生じた直接的または間接的な損害、不利益、データ消失、運用上の問題等について、開発者は一切の責任を負いません。
+      </p>
+      <p>
+        また、医療関連情報の入力、保存、共有、バックアップ、出力その他の利用に起因して生じたいかなる結果についても、開発者は責任を負いません。
+      </p>
+      <p>
+        利用者は、自らの責任において本アプリを使用するものとします。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>6. 改定</h2>
+      <p>
+        本ポリシーの内容は、必要に応じて予告なく変更されることがあります。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. お問い合わせ</h2>
+      <p>
+        お問い合わせは以下のフォームをご利用ください。<br>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK-ASZDN32Ryd7DOtpYbUPvWYXWcq7Z39MqnnZ5CWCZz0kIw/viewform" target="_blank" rel="noopener noreferrer">
+          お問い合わせフォーム
+        </a>
+      </p>
+      <p>
+        <a href="./index.html">製作者情報ページへ戻る</a>
+      </p>
+    </section>
+
+    <p class="footer">© VA Note / nanashinoCE</p>
+  </main>
+</body>
+</html>
